@@ -27,7 +27,7 @@ with codecs.open(readme_path, encoding='utf-8') as readme:
 
 setuptools.setup(
     name='bijection',
-    version='0.1.0',
+    version='0.1.1',
     description='A library for producing bijective functions in Python.',
     long_description=long_description,
     url='https://github.com/binarybirchtree/python-bijection',

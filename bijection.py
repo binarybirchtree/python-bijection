@@ -56,7 +56,7 @@ class Bijection(object):
         Converts an unsigned 8-bit integer.
         """
         return self._convert_integer(
-            format_string='=B',
+            format_string='!B',
             input_value=input_value
         )
 
@@ -65,7 +65,7 @@ class Bijection(object):
         Converts an unsigned 16-bit integer.
         """
         return self._convert_integer(
-            format_string='=H',
+            format_string='!H',
             input_value=input_value
         )
 
@@ -74,7 +74,7 @@ class Bijection(object):
         Converts an unsigned 32-bit integer.
         """
         return self._convert_integer(
-            format_string='=I',
+            format_string='!I',
             input_value=input_value
         )
 
@@ -83,7 +83,7 @@ class Bijection(object):
         Converts an unsigned 64-bit integer.
         """
         return self._convert_integer(
-            format_string='=Q',
+            format_string='!Q',
             input_value=input_value
         )
 
@@ -92,7 +92,7 @@ class Bijection(object):
         Converts an signed 8-bit integer.
         """
         return self._convert_integer(
-            format_string='=b',
+            format_string='!b',
             input_value=input_value
         )
 
@@ -101,7 +101,7 @@ class Bijection(object):
         Converts an signed 16-bit integer.
         """
         return self._convert_integer(
-            format_string='=h',
+            format_string='!h',
             input_value=input_value
         )
 
@@ -110,7 +110,7 @@ class Bijection(object):
         Converts an signed 32-bit integer.
         """
         return self._convert_integer(
-            format_string='=i',
+            format_string='!i',
             input_value=input_value
         )
 
@@ -119,7 +119,7 @@ class Bijection(object):
         Converts an signed 64-bit integer.
         """
         return self._convert_integer(
-            format_string='=q',
+            format_string='!q',
             input_value=input_value
         )
 
@@ -140,7 +140,7 @@ class Bijection(object):
         Reverts an unsigned 8-bit integer.
         """
         return self._revert_integer(
-            format_string='=B',
+            format_string='!B',
             input_value=input_value
         )
 
@@ -149,7 +149,7 @@ class Bijection(object):
         Reverts an unsigned 16-bit integer.
         """
         return self._revert_integer(
-            format_string='=H',
+            format_string='!H',
             input_value=input_value
         )
 
@@ -158,7 +158,7 @@ class Bijection(object):
         Reverts an unsigned 32-bit integer.
         """
         return self._revert_integer(
-            format_string='=I',
+            format_string='!I',
             input_value=input_value
         )
 
@@ -167,7 +167,7 @@ class Bijection(object):
         Reverts an unsigned 64-bit integer.
         """
         return self._revert_integer(
-            format_string='=Q',
+            format_string='!Q',
             input_value=input_value
         )
 
@@ -176,7 +176,7 @@ class Bijection(object):
         Reverts a signed 8-bit integer.
         """
         return self._revert_integer(
-            format_string='=b',
+            format_string='!b',
             input_value=input_value
         )
 
@@ -185,7 +185,7 @@ class Bijection(object):
         Reverts a signed 16-bit integer.
         """
         return self._revert_integer(
-            format_string='=h',
+            format_string='!h',
             input_value=input_value
         )
 
@@ -194,7 +194,7 @@ class Bijection(object):
         Reverts a signed 32-bit integer.
         """
         return self._revert_integer(
-            format_string='=i',
+            format_string='!i',
             input_value=input_value
         )
 
@@ -203,6 +203,6 @@ class Bijection(object):
         Reverts a signed 64-bit integer.
         """
         return self._revert_integer(
-            format_string='=q',
+            format_string='!q',
             input_value=input_value
         )
