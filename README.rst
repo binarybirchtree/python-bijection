@@ -1,6 +1,9 @@
 .. image:: https://img.shields.io/travis/binarybirchtree/python-bijection.svg
    :target: https://travis-ci.org/binarybirchtree/python-bijection
 
+.. image:: https://codecov.io/gh/binarybirchtree/python-bijection/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/binarybirchtree/python-bijection
+
 .. image:: https://img.shields.io/pypi/v/bijection.svg
    :target: https://pypi.python.org/pypi/bijection
 

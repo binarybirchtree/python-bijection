@@ -45,6 +45,9 @@ setuptools.setup(
         'Topic :: Software Development',
     ],
     keywords='bijection bijective function',
-    py_modules=['bijection'],
+    package_dir={
+        '': 'src',
+    },
+    packages=[''],
     install_requires=['pycryptodome'],
 )

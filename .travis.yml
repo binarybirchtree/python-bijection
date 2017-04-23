@@ -3,7 +3,7 @@ dist: trusty
 
 python:
   - '2.7'
-  - '3.5'
+  - '3.6'
 
-install: pip install tox-travis
+install: pip install tox-travis==0.8
 script: tox
